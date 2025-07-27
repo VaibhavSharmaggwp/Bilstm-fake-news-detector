@@ -11,6 +11,8 @@ from tensorflow.keras.models import load_model
 
 # Download NLTK data
 nltk.download('stopwords')
+nltk.download('punkt')  
+
 
 # Set page configuration for better UI
 st.set_page_config(page_title="Fake News Detector", page_icon="📰", layout="centered")
